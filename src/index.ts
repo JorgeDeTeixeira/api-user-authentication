@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/status", (req: Request, res: Response, next: NextFunction) => {
-    res.status(200).send({ foo: "bar" });
+    res.status(200).send({ foo: "Vamo pro bar" });
 });
 
 app.listen(PORT, () => console.log("Server is running in port 3000."));
